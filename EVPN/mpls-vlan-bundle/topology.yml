@@ -21,7 +21,6 @@ vlans:
     vrf: tenant
 
 evpn:
-  vlan_bundle_service: True
   vlans: [ red, blue ]
   vrfs: [ tenant ]
   transport: mpls
